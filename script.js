@@ -1,5 +1,5 @@
 const firstname = prompt('enter your name');
-const height = prompt('enter your height');
+const height = prompt('enter your height in number e.g 4');
 const country = prompt('enter your country');
 
 
@@ -11,5 +11,5 @@ if (firstname.length <= 2 || !firstname){
 }else if (country.length <=3 || !country){
     alert('invalid country name')
 }else{
-    document.write(`Hi ${firstname}, you are ${height} tall and your nationality is ${country}.`);
+    document.write((`Hi ${firstname}, you are ${height} ft tall and your nationality is ${country}.`).toUpperCase());
 }
