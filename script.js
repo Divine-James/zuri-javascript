@@ -1,5 +1,5 @@
 const firstname = prompt('enter your name');
-const height = prompt('enter your height in number e.g 4');
+const height = prompt('enter your height in number only e.g 4');
 const country = prompt('enter your country');
 
 
